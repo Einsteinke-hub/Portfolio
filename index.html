@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einstein Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d9531c5a63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/EINSTEIN. (1).jpg" class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="image">
+            <img src="Images/WhatsApp Image 2023-10-18 at 20.53.46.jpg" alt="image">
+        </div>
+        <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Einstein</span><br>Dipondo From Kenya </h1>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="Images/WhatsApp Image 2023-09-14 at 18-compressed (1).jpg">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About</h1>
+                   <p>As a passionate web developer and designer, I craft digital experiences that are both visually stunning and functionally seamless. With a keen eye for detail and a deep understanding of user experience, I transform complex ideas into intuitive and engaging websites. My expertise lies in crafting responsive designs that adapt to any screen size and developing robust, efficient code that delivers optimal performance. Let's collaborate to bring your vision to life.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Web Design</span><br>Designing Web Apps</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span> 2024-2025 </span><br>Internship at Microsoft Nairobi </li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2024</span><br>Web Development at Alison</li>
+                        <li><span>2024</span><br>Responsive Web Design at FreeCodeCamp</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I specialize in crafting captivating and functional websites. With a keen eye for design and a deep understanding of coding, I transform ideas into engaging online experiences. My expertise lies in HTML, CSS, and JavaScript, allowing me to create responsive, user-friendly, and visually stunning websites that leave a lasting impression</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>As a skilled web designer, I leverage the latest technologies to build responsive, accessible, and high-performance websites. From clean HTML/CSS code to dynamic JavaScript interactions, I have the expertise to create cutting-edge web experiences. Let's discuss your next project</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/fd46cd78cc528966961d898a275cd3af.jpg">
+                    <div class="layer">
+                        <h3>Movie Website</h3>
+                        <p>Discover a vast collection of movies, from classic masterpieces to the latest blockbusters. Explore personalized recommendations, read in-depth reviews, and purchase tickets with ease. Stay up-to-date with the latest trailers, news, and behind-the-scenes insights. Immerse yourself in the world of film with MovieHub</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+               </div>
+                <div class="work">
+                    <img src="Images/f2e1175d6dc0674224f488fa37e085f5.jpg">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This website serves as a professional online presence, allowing visitors to explore an individual's portfolio, learn about their expertise, and potentially collaborate on future projects</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/49aa5dff2800c0e1837a53c2e89d9527.jpg">
+                    <div class="layer">
+                        <h3>Business Website</h3>
+                        <p>The platform provides valuable insights and analytics to help businesses make data-driven decisions. With its user-friendly interface and robust features, this website empowers businesses to increase efficiency, improve productivity, and achieve sustainable growth</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>einstenmarto30@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0759136851</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/CfcEinstein?t=XoGN07Bvlp4LrCCNSri9HQ&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/einstein-dipondo-ab1651296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/einstein_ke_/profilecard/?igsh=MXA0ejI1MWRzemlldg=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/18uvqMHmuB/"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            <div class="copyright">
+                <p>Copyright &copy; Einstein Dipondo</p>
+            </div>
+            </div>
+        </div>
+    </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu() {
+        sidemenu.style.right="0";
+    }
+    function closemenu() {
+        sidemenu.style.right="-200px";
+    }
+    
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby8SX1WsInp1m7dusXvuS8feltX2CMatbws3SSf2HuoEOx1xlsT9YhFLZ7jhZf_4Cq9pA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
